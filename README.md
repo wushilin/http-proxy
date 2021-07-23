@@ -19,6 +19,10 @@ Usage of $GOPATH/bin/http-proxy:
   -proto string
     	Proxy protocol (http or https) (default "https")
 ```
+# Use cases
+* Debug firewall requirement
+* Gain access to internet
+* Proxy request
 
 # Example
 
@@ -31,4 +35,8 @@ $ http-proxy -listen ":8888" -proto http
 ```
 $ http-proxy -key server.key -pem server.pem
 ```
+
+
+# Credit
+Original author at https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c
 
