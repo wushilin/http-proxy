@@ -65,7 +65,7 @@ func main() {
 	var keyPath string
 	flag.StringVar(&keyPath, "key", "server.key", "path to key file")
 	var proto string
-	flag.StringVar(&proto, "proto", "https", "Proxy protocol (http or https)")
+	flag.StringVar(&proto, "proto", "http", "Proxy protocol (http or https)")
 	var listen string
 	flag.StringVar(&listen, "listen", ":8888", "Listen on this interface and port")
 
