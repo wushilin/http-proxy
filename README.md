@@ -1,6 +1,8 @@
 # http-proxy
 A simple HTTP Proxy in Go. Useful for networking enhancement, when you need to proxy your requests.
+Supports HTTP, TLS, HTTP Connect and more.
 
+You don't need an Apache Server or NGINX to help you to proxy request any more! This program is enough.
 # Installing
 ```shell
 $ go get github.com/wushilin/http-proxy
