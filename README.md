@@ -25,6 +25,10 @@ Usage of $GOPATH/bin/http-proxy:
 * Proxy request
 
 # Example
+## Start an http proxy on port 8888
+```
+$ http-proxy
+```
 
 ## Start an http proxy without ssl
 ```
