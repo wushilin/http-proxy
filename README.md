@@ -40,3 +40,4 @@ $ http-proxy -key server.key -pem server.pem
 # Credit
 Original author at https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c
 
+By Michał Łowicki
